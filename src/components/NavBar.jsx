@@ -8,7 +8,7 @@ function Redirect1(){
 export default function NavBar(){
   return(
     
-       <div class="hidden fixed h-full w-68 bg-white opacity-40 backdrop-filter backdrop-blur-lg   md:flex flex-col items-start justify-start rounded-b-xl rounded-r-xl shadow-2xl z-10 " >
+       <div class="hidden fixed h-full w-68 bg-gradient-to-r from-blue-200 via-cyan-100 to-blue-100 opacity-70 backdrop-filter backdrop-blur-lg   md:flex flex-col items-start justify-start rounded-b-xl rounded-r-xl shadow-2xl z-10 " >
        <div class="flex flex-col r space-y-14 mt-8 ">
        <div class="flex  space-x-2 ml-4 h-10 w-44  py-2 rounded-lg px-2 ">
        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28x" fill="currentColor" class="bi bi-prescription2" viewBox="0 0 16 16">

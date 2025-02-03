@@ -5,4 +5,11 @@
     --color-nav3:#1f1f22;
 }
 
-
+body{
+    backgroud-image: url('./Finalbg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    
+}

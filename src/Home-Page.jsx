@@ -66,7 +66,7 @@ import "./home-page.css";
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1 }}
-        className="heading" 
+        className="heading" class="ml-100 text-7xl text-slate-700 font-extrabold"
       >
         MediTrack
       </motion.h1>
@@ -76,7 +76,7 @@ import "./home-page.css";
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 50 }}
         transition={{ duration: 1 }}
-        className="helper-text"
+        className="helper-text" class=" text-3xl mt-20 text-slate-700 font-serif ml-20"
       >
         Hi there, how can I help you 
       </motion.p>
@@ -88,7 +88,7 @@ import "./home-page.css";
         transition={{ duration: 1 }}
         className="typing-text"
       >
-        <span className="typing-animation">{displayedText}</span>
+        <span className="typing-animation" class= "text-3xl mt-20 text-slate-700 font-serif ml-20">{displayedText}</span>
       </motion.p>
 
       <motion.p
@@ -96,7 +96,7 @@ import "./home-page.css";
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 50 }}
         transition={{ duration: 1 }}
-        className="text" class="text-3xl font-serif text-slate-700 mr-16 ml-16 mt-72"
+        className="text" class="text-3xl font-serif text-slate-700 mr-16 ml-16 mt-60"
       >
         MediTrack is your smart healthcare companion, helping you manage medications effortlessly.
         It provides detailed drug information, including uses, side effects, and interactions.
