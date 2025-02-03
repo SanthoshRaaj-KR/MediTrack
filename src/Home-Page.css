@@ -1,0 +1,85 @@
+/* Overall body styling with a clean background */
+#hp {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin:0
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #ecf0f1; /* Light gray background */
+}
+
+/* Main container - No card styling, just center content *
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Heading styling to make "MediTrack" prominent */
+.heading {
+  font-size: 4rem; /* Large and bold title */
+  font-weight: 700; /* Bold */
+  color: #2c3e50; /* Dark color for contrast */
+  margin-bottom: 10px;
+  letter-spacing: 2px; /* Slight letter-spacing for a clean look */
+  text-transform: uppercase;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect to slightly enlarge the heading */
+.heading:hover {
+  transform: scale(1.05);
+}
+
+/* Helper text styling (this line stays static) */
+.helper-text {
+  font-size: 1.5rem;
+  color: #34495e;
+  margin-top: 10px;
+  display: block; /* Ensure it starts on a new line */
+}
+
+/* Typing effect animation for the text inside the span */
+.typing-text {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: #34495e;
+}
+
+.typing-animation {
+  display: inline-block;
+  border-right: 2px solid #34495e; /* Cursor effect */
+  padding-right: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0; /* Initially no text visible */
+  animation: blink-caret 0.75s step-end infinite, typewriter 4s steps(30) 1s forwards;
+}
+
+/* Keyframe for blinking cursor effect */
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* Typewriter animation for the words */
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Main text styling */
+.text {
+  font-size: 1.2rem;
+  color: #34495e;
+  margin-top: 10px;
+  margin-right: 20px;
+  text-align: justify;
+  line-height: 1.6;
+}
